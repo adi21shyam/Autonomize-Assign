@@ -1,0 +1,66 @@
+.user-info {
+    background: rgb(170, 167, 167);
+    padding: 20px;
+    margin-top: 20px;
+    /* text-align: center; */
+    color: #1d1818;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.user-image{
+    width: 7rem;
+    height: 7rem;
+}
+
+.user-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.repo-list, .followers-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+
+.repo-semi-detail-div{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 5%;
+    
+}
+.repo-semi-detail{
+    display: flex;
+    
+}
+
+.repo-semi-image{
+    padding: auto;
+    margin: 1rem;
+    
+}
+
+.repo-semi-description h3{
+    color: rgb(26, 26, 162);
+}
+
+.repo-list li, .followers-list li {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.repo-list li:hover, .followers-list li:hover {
+    background-color: #eee;
+}
+.home{
+    display: flex;
+    justify-content: end;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+}
